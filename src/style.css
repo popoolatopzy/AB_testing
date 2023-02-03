@@ -1,0 +1,19 @@
+.card {
+  width: 250px;
+  height: 250px;
+  border-radius: 9%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 2px solid rgba(69, 9, 209, 0.743);
+}
+.body {
+  width: 70%;
+  height: 400px;
+}
+.image {
+  width: 250px;
+  height: 120px;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}

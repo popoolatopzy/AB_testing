@@ -1,0 +1,71 @@
+// 20230129210116
+// https://cdn.optimizely.com/json/22840950665.json
+
+{
+  "groups": [],
+  "environmentKey": "production",
+  "rollouts": [
+    {
+      "experiments": [
+        {
+          "status": "Running",
+          "audienceConditions": [],
+          "audienceIds": [],
+          "variations": [
+            {
+              "variables": [],
+              "id": "132684",
+              "key": "off",
+              "featureEnabled": false
+            }
+          ],
+          "forcedVariations": {},
+          "key": "default-rollout-44116-22813241001",
+          "layerId": "rollout-44116-22813241001",
+          "trafficAllocation": [
+            {
+              "entityId": "132684",
+              "endOfRange": 10000
+            }
+          ],
+          "id": "default-rollout-44116-22813241001"
+        }
+      ],
+      "id": "rollout-44116-22813241001"
+    }
+  ],
+  "typedAudiences": [],
+  "projectId": "22840950665",
+  "variables": [],
+  "featureFlags": [
+    {
+      "experimentIds": [],
+      "rolloutId": "rollout-44116-22813241001",
+      "variables": [],
+      "id": "44116",
+      "key": "new-test-flag"
+    }
+  ],
+  "experiments": [],
+  "version": "4",
+  "audiences": [
+    {
+      "conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]",
+      "id": "$opt_dummy_audience",
+      "name": "Optimizely-Generated Audience for Backwards Compatibility"
+    }
+  ],
+  "anonymizeIP": true,
+  "sdkKey": "LSiWB4D6YY7vpYo5GRuGE",
+  "attributes": [],
+  "botFiltering": false,
+  "accountId": "22840950665",
+  "events": [
+    {
+      "experimentIds": [],
+      "id": "22905590254",
+      "key": "sort_method"
+    }
+  ],
+  "revision": "72"
+}
