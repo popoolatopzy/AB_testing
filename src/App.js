@@ -10,7 +10,7 @@ import {
 import React from "react";
 
 const optimizely = createInstance({
-  sdkKey: "LSiWB4D6YY7vpYo5GRuGE",
+  sdkKey: "Optimizely_SDK_Key",
 });
 
 class Buy_Now_Button extends React.Component {
